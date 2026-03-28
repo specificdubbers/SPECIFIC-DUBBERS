@@ -74,10 +74,13 @@ nav a:hover {
 /* TEXT GLOW */
 .hero h2 {
     text-shadow: 0 0 20px rgba(0,0,0,0.8);
+    padding: 20px;
+    font-size: 50px;
 }
 
 .hero p {
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
+    font-size: 25px;
 }
 
 .btn {
@@ -177,4 +180,17 @@ footer {
     background: #111;
     margin-top: 40px;
     opacity: 0.7;
+}
+
+body {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.btn {
+    margin-top: 20px;
+    display: inline-block;
 }
